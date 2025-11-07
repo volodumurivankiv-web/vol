@@ -1,17 +1,9 @@
-# 🔒 Ignore environment files (API keys, tokens, etc.)
+# 👇 Ігноруємо файл з токенами
 .env
-.env.local
-.env.*.local
 
-# Node.js
+# 👇 Ігноруємо залежності Node.js
 node_modules/
-npm-debug.log
-yarn-error.log
 
-# System files
-.DS_Store
-Thumbs.db
-
-# IDE / Editors
+# 👇 (опціонально) кеш VSCode або системні файли
 .vscode/
-.idea/
+.DS_Store
