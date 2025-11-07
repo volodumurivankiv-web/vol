@@ -1,0 +1,17 @@
+# 🔒 Ignore environment files (API keys, tokens, etc.)
+.env
+.env.local
+.env.*.local
+
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# System files
+.DS_Store
+Thumbs.db
+
+# IDE / Editors
+.vscode/
+.idea/
